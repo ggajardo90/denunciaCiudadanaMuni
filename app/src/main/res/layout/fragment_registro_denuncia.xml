@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistroActivity"
+    style="@style/AppTheme.NoActionBar">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fondo_azul_login"
+        android:scaleType="centerCrop"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#a1000000"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+
+
+<!--     +-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registra aqui tu Denuncia"
+            android:textColor="#fff"
+            android:textSize="30dp"
+            android:textStyle="italic"
+            android:layout_marginBottom="30dp"
+
+            />
+
+
+        <EditText
+            android:id="@+id/txt_denuncia_titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/fondo_negro"
+            android:hint="Describe aqui tu denuncia"
+            android:inputType="number"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#fff"
+            android:textColorHint="#ccc"
+            tools:ignore="DuplicateIds,InvalidId" />
+
+
+        <EditText
+            android:id="@+id/txt_denuncia_direccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/fondo_negro"
+            android:hint="Direccion de los hechos"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#fff"
+            android:textColorHint="#ccc" />
+
+
+
+
+        <Button
+            android:id="@+id/btn_denuncia_guardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btn_fondo_color"
+            android:elevation="5dp"
+            android:text="Crear Cuenta"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:onClick="registrar"/>
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/escudo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="50dp"
+            android:src="@drawable/escudo_muni"
+
+            />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "173849781678",
+    "firebase_url": "https://denunciaciudadanamuni.firebaseio.com",
+    "project_id": "denunciaciudadanamuni",
+    "storage_bucket": "denunciaciudadanamuni.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173849781678:android:4de1a9ca3af1e5489ed43f",
+        "android_client_info": {
+          "package_name": "com.inacap.denunciaciudadanamuni"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173849781678-v1t5rqetdtfe0hj2qrf6gqi2p5a8gbb1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGS4AhOvxXTUJa7skQNJML9c9s0X777Sk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173849781678-v1t5rqetdtfe0hj2qrf6gqi2p5a8gbb1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="25dp">
+
+    <TextView
+        android:id="@+id/lista_logo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/circle"
+        android:text="D"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"/>
+
+    <TextView
+        android:id="@+id/lista_titulo_denuncia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Titulo "
+        android:layout_toEndOf="@id/lista_logo"
+        />
+    <TextView
+        android:id="@+id/lista_direccion_denuncia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Direccion Denuncia "
+        android:layout_toEndOf="@id/lista_logo"
+        android:layout_below="@id/lista_titulo_denuncia"
+        />
+    <TextView
+        android:id="@+id/lista_estado_denuncia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado"
+        android:layout_toRightOf="@id/lista_logo"
+        android:layout_below="@id/lista_direccion_denuncia"
+        />
+
+
+
+</RelativeLayout>
